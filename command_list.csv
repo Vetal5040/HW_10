@@ -1,0 +1,47 @@
+    1  help
+    2  clear
+    3  whoami
+    4  зцв
+    5  clear
+    6  pwd
+    7  cd Documents
+    8  git status
+    9  ls -l
+   10  cd hw_git
+   11  ls --l
+   12  cd HW_10
+   13  ls -la
+   14  checkout develop
+   15  touch develop_test.txt
+   16  git branch develop
+   17  git checkout develop
+   18  touch develop_test.txt
+   19  ls -la
+   20  cd .gitignore
+   21  echo SomeText > develop_test.txt
+   22  git add .
+   23  git commit -m "Створено порожній файл develop_test.txt"
+   24  git status
+   25  vim develop_test.txt
+   26  echo SomeNew777Text > develop_test.txt
+   27  git add .
+   28  git commit -m "Внесено зміни у develop_test.txt"
+   29  git commit -m "develop_test.txt is changed"
+   30  rm  .develop_test.txt.swp
+   31  git status
+   32  git push
+   33  ls -la
+   34  git checkout main
+   35  git merge develop
+   36  git log
+   37  ls -la
+   38  rm .develop_test.txt.swp
+   39  git status
+   40  ls - la
+   41  ls -la
+   42  git log
+   43  rm develop_test2.txt
+   44  ls -l
+   45  git merge develop
+   46  git add .
+   47  history > command_list.csv
