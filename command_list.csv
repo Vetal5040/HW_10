@@ -1,0 +1,117 @@
+    1  help
+    2  clear
+    3  whoami
+    4  зцв
+    5  clear
+    6  pwd
+    7  cd Documents
+    8  git status
+    9  ls -l
+   10  cd hw_git
+   11  ls --l
+   12  cd HW_10
+   13  ls -la
+   14  checkout develop
+   15  touch develop_test.txt
+   16  git branch develop
+   17  git checkout develop
+   18  touch develop_test.txt
+   19  ls -la
+   20  cd .gitignore
+   21  echo SomeText > develop_test.txt
+   22  git add .
+   23  git commit -m "Створено порожній файл develop_test.txt"
+   24  git status
+   25  vim develop_test.txt
+   26  echo SomeNew777Text > develop_test.txt
+   27  git add .
+   28  git commit -m "Внесено зміни у develop_test.txt"
+   29  git commit -m "develop_test.txt is changed"
+   30  rm  .develop_test.txt.swp
+   31  git status
+   32  git push
+   33  ls -la
+   34  git checkout main
+   35  git merge develop
+   36  git log
+   37  ls -la
+   38  rm .develop_test.txt.swp
+   39  git status
+   40  ls - la
+   41  ls -la
+   42  git log
+   43  rm develop_test2.txt
+   44  ls -l
+   45  git merge develop
+   46  git add .
+   47  history > command_list.csv
+   48  git add .
+   49  git commit -m "Додано файл з історією команд
+
+git push
+pwd
+cd ./
+   50  git push
+   51  git pull
+   52  rwm
+   53  pwd
+   54  ls -l
+   55  git push
+   56  git branch -d develop
+   57  git add.
+   58  git add .
+   59  git status
+   60  ls -la
+   61  cd ./
+   62  ls -la
+   63  cd .
+   64  ls develop_test2.txt
+   65  cd */
+   66  св ..
+   67  cd ..
+   68  ls -la
+   69  ls develop_test2.txt
+   70  cd HW_10
+   71  ls develop_test2.txt
+   72  clear
+   73  git pull
+   74  git merge
+   75  git push
+   76  git checkout main
+   77  rm .develop_test.txt.swp
+   78  ls -la
+   79  clear
+   80  git branch develop
+   81  git checkout develop
+   82  git add 
+   83  git add .
+   84  git commit -m "Створено порожній файл develop_test.txt"
+   85  ls -la
+   86  echo SomeText > develop_test.txt
+   87  git add .
+   88  git commit -m "develop_test.txt is changed"
+   89  git push
+   90  git status
+   91  git checkout main
+   92  git merge develop
+   93  git log
+   94  git push
+   95  history > command_list.csv
+   96  git add .
+   97  git commit -m "Додано файл з історією команд"
+   98  git push
+   99  git push origin main
+  100  git pull
+  101  ls -la
+  102  rm .develop_test.txt.swp
+  103  rm develop_test2.txt
+  104  ls -la
+  105  git add .
+  106  git commit -m "Deleted some files"
+  107  git status
+  108  rm command_list.csv
+  109  ls -la
+  110  git add .
+  111  git commit -m "Додано"
+  112  git push origin main
+  113  history > command_list.csv
