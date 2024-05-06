@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     1  help
     2  clear
     3  whoami
@@ -97,3 +98,67 @@ cd ./
    93  git log
    94  git push
    95  history > command_list.csv
+=======
+    1  clear
+    2  git config --global user.name Vetal5040
+    3  git clone https://github.com/Vetal5040/HW_10.git
+    4  ls -l
+    5  cd 
+    6  cd HW_10
+    7  mkdir HW_10
+    8  cd HW_10
+    9  git clone https://github.com/Vetal5040/HW_10.git
+   10  touch text_ignore.txt
+   11  ls -l
+   12  vim text_ignore.txt
+   13  vim .gitinore
+   14  ls -la
+   15  cd HW_10
+   16  ls -la
+   17  vim .gitignore
+   18  touch text_ignore.txt
+   19  git status
+   20  git add .
+   21  git commit -m "OK"
+   22  git statuus
+   23  git status
+   24  git push origin main
+   25  touch main_test.txt
+   26  git add .
+   27  git commit -m "Done"
+   28  ls -l
+   29  ls -la
+   30  git checkout -b develop
+   31  touch develop_test.txt
+   32  git add .
+   33  git commit -m "Super"
+   34  vim develop_test.txt
+   35  vim develop_test.txt
+   36  vim develop_test.txt file
+   37  git status
+   38  rm develop_test.txt.swp.
+   39  git restore <develop_test.txt.swp>
+   40  git add .
+   41  git add .
+   42  git commit -m "I'm sad"
+   43  git status
+   44  ls -la
+   45  git push origin main
+   46  git checkout -b develop2
+   47  git push origin main
+   48  touch develop_test.txt
+   49  git add .
+   50  rm 'develop_test.txt'
+   51  git status
+   52  git add .
+   53  git commit -a
+   54  touch develop_test2.txt
+   55  git add .
+   56  git commit -m "Done"
+   57   git push origin main
+   58  git checkout main
+   59  git merge develop
+   60  git merge develop2
+   61  git log
+   62  history > command_list.csv
+>>>>>>> 8284c4bf8a4cd215b16bbe809cd7cf85afbae683
