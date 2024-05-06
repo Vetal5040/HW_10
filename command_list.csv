@@ -115,3 +115,11 @@ cd ./
   111  git commit -m "Додано"
   112  git push origin main
   113  history > command_list.csv
+  114  git add .
+  115  git commit -m "Додано файл з історією команд"
+  116  git push origin main
+  117  git clone
+  118  git clone https://github.com/Vetal5040/HW_10.git
+  119  cd HW_10
+  120  ls -la
+  121  history > command_list.csv
